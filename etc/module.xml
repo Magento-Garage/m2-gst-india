@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  Module
+ * @package   MagentoGarage_GSTIndia
+ * @author    Aman Srivastava <aman.srivastava@live.com>
+ * @copyright Copyright (c) MagentoGarage (http://www.magentogarage.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+	<module name="MagentoGarage_GSTIndia" setup_version="1.0.0">
+		<sequence>
+			<module name="MagentoGarage_Base" />
+		</sequence>
+	</module>
+</config>

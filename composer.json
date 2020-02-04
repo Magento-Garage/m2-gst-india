@@ -1,0 +1,15 @@
+{
+    "name": "magento-garage/m2-gst-india",
+    "description": "Magento 2 module for GST configuration",
+    "type": "magento2-module",
+    "require": {
+        "magento-garage/magento2-base": "^1.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Aman Srivastava",
+            "email": "credevator@outlook.com"
+        }
+    ]
+}

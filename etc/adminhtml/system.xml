@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="general">
+            <group id="store_information">
+                <!-- <field id="gst_configured" translate="label" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <button_label>
+                </field> -->
+                <field id="configure_gst" translate="button_label" sortOrder="28" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <button_label>Configure GST</button_label>
+                    <frontend_model>MagentoGarage\GSTIndia\Block\Adminhtml\System\Config\ConfigureGST</frontend_model>
+                    <depends>
+                        <field id="country_id">IN</field>
+                    </depends>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
